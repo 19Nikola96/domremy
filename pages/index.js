@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react'
-import Footer from '../Components/Footer'
-import Header from '../Components/Header'
-import RecentActu from '../Components/RecentActu'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+import RecentActu from '../components/RecentActu'
 import data from '../firebase'
 
 export default function Home() {

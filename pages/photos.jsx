@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import React from 'react'
-import Album from '../Components/Album'
-import Footer from '../Components/Footer'
-import Header from '../Components/Header'
+import Album from '../components/Album'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 const Photos = () => {
     return (
