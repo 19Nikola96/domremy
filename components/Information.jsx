@@ -31,8 +31,8 @@ const Information = () => {
                             </div>
                             <div className="info-reseau">
                                 <h4>Réseaux sociaux</h4>  
-                                <p><i className="fab fa-instagram"></i><a href={getData[id].instagramLink} target="_blank">{getData[id].instagram}</a></p>                            
-                                <p><i className="fab fa-facebook"></i><a href={getData[id].facebookLink} target="_blank">{getData[id].facebook}</a></p>
+                                <p><i className="fab fa-instagram"></i><a href={getData[id].instagramLink} target="_blank" rel="noopener">{getData[id].instagram}</a></p>                            
+                                <p><i className="fab fa-facebook"></i><a href={getData[id].facebookLink} target="_blank" rel="noopener">{getData[id].facebook}</a></p>
                             </div>
                         </div>
                 })

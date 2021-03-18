@@ -46,7 +46,7 @@ const RecentActu = () => {
                             : <>
                                 {
                                     Object.keys(getData).sort((a, b) => (getData[b].date > getData[a].date) ? 1 : -1 ).slice(0, 4).map((id, index) => {
-                                        return <Link href="/actualites" key={index}>
+                                        return <Link href="/actualites" rel="noreferrer" key={index}>
                                                 <a style={{ backgroundImage: `linear-gradient(to right, rgba(63, 1, 63, 0.5), rgba(74, 0, 0, 0.5)), url(${getData[id].url})`}} className="actu mx-auto col-md-6 d-flex flex-column justify-content-center justify-content-between">
                                                     <div className="actu-title">
                                                         <h4>{getData[id].title}</h4>

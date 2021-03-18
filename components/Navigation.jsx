@@ -11,11 +11,11 @@ const Navigation = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav fade-in">
                         <li>
-                            <Link href="/"><a>Accueil</a></Link>
+                            <Link href="/" rel="noreferrer"><a>Accueil</a></Link>
                             <span></span>
                         </li>
                         <li>
-                            <Link href="/actualites"><a>Actualités</a></Link>
+                            <Link href="/actualites" rel="noreferrer"><a>Actualités</a></Link>
                             <span></span>
                         </li>
                         <li>
@@ -23,19 +23,19 @@ const Navigation = () => {
                             <span></span>
                         </li>
                         <li>
-                            <Link href="/groupes"><a>Les Groupes</a></Link>
+                            <Link href="/groupes" rel="noreferrer"><a>Les Groupes</a></Link>
                             <span></span>
                         </li>
                         <li>
-                            <Link href="/staff"><a>Le Staff</a></Link>
+                            <Link href="/staff" rel="noreferrer"><a>Le Staff</a></Link>
                             <span></span>
                         </li>
                         <li>
-                            <Link href="/competitions"><a>Les Compétitions</a></Link>
+                            <Link href="/competitions" rel="noreferrer"><a>Les Compétitions</a></Link>
                             <span></span>
                         </li>
                         <li>
-                            <Link href="/photos"><a>Photos</a></Link>
+                            <Link href="/photos" rel="noreferrer"><a>Photos</a></Link>
                             <span></span>
                         </li>
                     </ul>
