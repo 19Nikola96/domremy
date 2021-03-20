@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Domremy Gymnastique Paris 13éme</title>
+        <title>Domremy Gymnastique Paris 13ème</title>
         <meta charSet="utf-8"/>
         <meta httpEquiv="X-UA-Compatible" content="ie=edge"/>
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
