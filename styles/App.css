@@ -505,6 +505,33 @@ footer h3::after {
 
 /*////PHOTOS////*/
 
+.all-filter {
+  width: fit-content;
+  transition: all 0.4s;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 15px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.527);
+  color: black;
+}
+
+.filter {
+  width: fit-content;
+  transition: all 0.4s;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 15px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.527);
+  color: black;
+}
+
+.selected-filter {
+  background-color: #3b1053;
+  color: white;
+}
+
 .progress-bar {
   background-color: #55440b;
 }

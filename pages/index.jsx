@@ -26,6 +26,7 @@ export default function Home() {
         <title>Domremy Gymnastique Paris 13ème</title>
         <meta charSet="utf-8"/>
         <meta httpEquiv="X-UA-Compatible" content="ie=edge"/>
+        <meta name="google-site-verification" content="l20ihADgYaMurAlqaHngw-hDmc1e4y_CwCREnbt4VwM" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <meta name="description" content="Actualités du club Domrémy Gymnastique situé dans le 13eme arrondissement participant à des compétitions départementale,régionale et nationales avec la FSCF"></meta>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossOrigin="anonymous" />
