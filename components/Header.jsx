@@ -31,7 +31,7 @@ const Header = () => {
                 Object.keys(getData).map((id) => {
                   return <header key={id} style={{ backgroundImage: `linear-gradient(to right, rgba(63, 1, 63, 0.44), rgba(74, 0, 0, 0.432)), url(${getData[id].url})` }} >
                           <Navigation />
-                          <h1 className="mt-5 fade-in">La Domremy Gymnastique - Paris 13m -</h1>
+                          <h1 className="mt-5 fade-in">La Domremy Gymnastique - Paris 13ème -</h1>
                           <h2 className="fade-in">Club de Gymnastique artistique féminine</h2>
                         </header>
                 })

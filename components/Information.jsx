@@ -22,7 +22,6 @@ const Information = () => {
                     return <div key={index} className="row justify-content-between">
                             <div className="info-reseau">
                                 <h4>Informations</h4>    
-                                <p><i className="fas fa-phone-alt"></i><span>{getData[id].phonenumber}</span></p>                            
                                 <p><i className="fas fa-envelope"></i><span>{getData[id].mail}</span></p>                            
                                 <p><i className="fas fa-map-marker-alt"></i><span>{getData[id].address}</span></p>                            
                             </div>

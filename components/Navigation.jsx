@@ -27,7 +27,7 @@ const Navigation = () => {
                             <span></span>
                         </li>
                         <li>
-                            <Link href="/staff" rel="noreferrer"><a>Le Staff</a></Link>
+                            <Link href="/equipe" rel="noreferrer"><a>L' Équipe</a></Link>
                             <span></span>
                         </li>
                         <li>

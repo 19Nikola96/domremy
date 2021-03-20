@@ -425,7 +425,7 @@ footer h3::after {
 }
 
 .info-reseau {
-  width: 299.5px;
+  width: 301.5px;
 }
 
 .info-reseau-line {
@@ -680,6 +680,7 @@ footer h3::after {
 
   .info-contact {
     width: 100%;
+    padding: 35px;
   }
 }
 
@@ -692,8 +693,13 @@ footer h3::after {
     text-align: center;
   }
 
+  .info-reseau p {
+    margin: 20px auto 0 auto;
+  }
+
   .info-reseau {
     width: 100%;
+    text-align: center;
   }
 
   .info-contact div {
