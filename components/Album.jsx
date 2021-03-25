@@ -74,7 +74,7 @@ const Album = () => {
                                 return <Image key={id} id={id} data={getData[id]}/>
                             })
 
-                            : Object.keys(getData).filter((id) => getData[id].filter === filterImg).sort((a, b) => (getData[b].date > getData[a].date) ? 1 : -1 ).map((id) => { 
+                            : Object.keys(getData).filter((id) => getData[id].filter.replace(/\s/g, "") === filterImg.replace(/\s/g, "")).sort((a, b) => (getData[b].date > getData[a].date) ? 1 : -1 ).map((id) => { 
                                 return <Image key={id} id={id} data={getData[id]}/>
                             })
                         }
