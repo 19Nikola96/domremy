@@ -22,7 +22,7 @@ const Groupes = () => {
     return (
         <>
             <Head>
-                <title>Domremy Gymnastique Paris 13m</title>
+                <title>Domremy Gymnastique Paris 13ème</title>
                 <meta charSet="utf-8"/>
                 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
