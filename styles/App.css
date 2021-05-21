@@ -376,6 +376,7 @@ footer h3::after {
 .info-contact h4 {
   font-size: 30px;
   font-family: 'Oswald', serif;
+  text-align: center;
 }
 
 .info-contact h4::after {
